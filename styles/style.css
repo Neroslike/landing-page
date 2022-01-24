@@ -50,7 +50,7 @@ a {
     display: flex;
     background-color: #1F2937;
     padding: 110px 15%;
-    gap: 15px;
+    gap: 80px;
 }
 
 .main-text {
@@ -77,15 +77,20 @@ button {
 }
 
 .left {
-    width: 50%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .right {
     display: flex;
-    width: 50%;
+    max-width: 50%;
+    height: 270px;
     background-color: gray;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 
 .image {
